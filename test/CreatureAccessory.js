@@ -4,7 +4,6 @@ const CreatureAccessory = artifacts.require(
   "../contracts/CreatureAccessory.sol"
 );
 
-
 contract("CreatureAccessory", (accounts) => {
   const URI_BASE = 'https://creatures-api.opensea.io';
   const CONTRACT_URI = `${URI_BASE}/contract/opensea-erc1155`;
